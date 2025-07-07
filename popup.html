@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BonkGate - Crypto-Twitter Intelligence</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <div class="popup-container">
+        <div class="header">
+            <div class="flex items-center justify-between p-4">
+                <div class="flex items-center space-x-3">
+                    <img src="assets/raw.png" alt="BonkGate" class="w-8 h-8 rounded-full">
+                    <h1 class="text-lg font-bold text-white">BONK<span class="text-orange-500">GATE</span></h1>
+                </div>
+                <span class="px-2 py-1 bg-orange-500 bg-opacity-20 text-orange-400 rounded-full text-xs">v1.0</span>
+            </div>
+            <div class="text-center pb-4">
+                <h2 class="text-2xl font-bold text-white mb-2">BONK<span class="text-orange-500">GATE</span></h2>
+                <p class="text-sm text-gray-300">The Ultimate Crypto-Twitter Intelligence Browser Extension</p>
+            </div>
+        </div>
+
+        <div class="content p-4 space-y-4">
+            <div class="welcome flex flex-col items-center space-y-2 py-2">
+                <div class="status-badge px-3 py-1 bg-green-500 bg-opacity-20 text-green-400 rounded-full text-xs">
+                    Active on X/Twitter
+                </div>
+            </div>
+            
+            <div class="features">
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="feature-item deleted-tweets bg-red-500 rounded-lg p-4 text-center text-white cursor-pointer hover:bg-red-600 transition-colors">
+                        <div class="text-2xl mb-2">🗑️</div>
+                        <div class="text-sm font-semibold">Deleted Tweets</div>
+                    </div>
+                    <div class="feature-item ca-tracking bg-orange-500 rounded-lg p-4 text-center text-white cursor-pointer hover:bg-orange-600 transition-colors">
+                        <div class="text-2xl mb-2">👁️</div>
+                        <div class="text-sm font-semibold">CA Tracking</div>
+                    </div>
+                    <div class="feature-item first-followers bg-blue-500 rounded-lg p-4 text-center text-white cursor-pointer hover:bg-blue-600 transition-colors">
+                        <div class="text-2xl mb-2">👥</div>
+                        <div class="text-sm font-semibold">First Followers</div>
+                    </div>
+                    <div class="feature-item profile-changes bg-purple-500 rounded-lg p-4 text-center text-white cursor-pointer hover:bg-purple-600 transition-colors">
+                        <div class="text-2xl mb-2">✏️</div>
+                        <div class="text-sm font-semibold">Profile Changes</div>
+                    </div>
+                    <div class="feature-item key-followers bg-green-500 rounded-lg p-4 text-center text-white cursor-pointer hover:bg-green-600 transition-colors">
+                        <div class="text-2xl mb-2">⭐</div>
+                        <div class="text-sm font-semibold">Key Followers</div>
+                    </div>
+                    <div class="feature-item real-time-alerts bg-yellow-500 rounded-lg p-4 text-center text-white cursor-pointer hover:bg-yellow-600 transition-colors">
+                        <div class="text-2xl mb-2">⚡</div>
+                        <div class="text-sm font-semibold">Real-time Alerts</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="instructions bg-gray-800 rounded-lg p-4 text-center">
+                <p class="text-sm text-gray-300 mb-2">Visit any X/Twitter profile and click the BonkGate icon to analyze the account.</p>
+                <p class="text-xs text-orange-400">Track deleted tweets, monitor token addresses, and uncover hidden activities</p>
+            </div>
+        </div>
+        
+        <div class="footer flex justify-center p-3 border-t border-gray-700 text-xs text-gray-400">
+            <a href="https://www.bonkgate.fun/" class="hover:text-orange-400 mx-2">Website</a>
+            <a href="#" class="hover:text-orange-400 mx-2">Twitter/X</a>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
